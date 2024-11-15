@@ -63,7 +63,6 @@ async function handleSubmit(event) {
     refs.gallery.insertAdjacentHTML('beforeend', markup);
     library.refresh();
   } catch (error) {
-    // console.log(error.message);
     iziToast.error({
       message: `Please try again later`,
       position: `bottomRight`,
@@ -96,7 +95,6 @@ async function handleButtonShowMore() {
     }
     refs.button.classList.add('is-visible');
   } catch (error) {
-    // console.log(error.message);
     iziToast.error({
       message: `Please try again later`,
       position: `bottomRight`,
