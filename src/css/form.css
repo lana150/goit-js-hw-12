@@ -53,4 +53,10 @@ input:focus::placeholder {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     gap: 24px;
+    margin-bottom: 32px;
+}
+
+.gallery-button {
+    display: none;
+    width: 125px;
 }

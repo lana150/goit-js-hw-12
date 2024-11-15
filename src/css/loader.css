@@ -8,6 +8,7 @@
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
     margin-bottom: 14px;
+    pointer-events: none;
 }
 
 .loader::after {
@@ -22,6 +23,10 @@
     border-left: 4px solid rgb(238, 238, 10);
     border-bottom: 4px solid transparent;
     animation: rotation 0.5s linear infinite reverse;
+}
+
+.is-visible {
+    display: block;
 }
 
 @keyframes rotation {
